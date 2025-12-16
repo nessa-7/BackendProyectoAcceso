@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-const authRoutes = require("../Backend/routes/authRoutes")
+const authRoutes = require("../routes/authRoutes")
 const cors = require("cors")
 
 app.use(cors({
